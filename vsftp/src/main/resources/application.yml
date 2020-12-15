@@ -1,0 +1,17 @@
+
+
+# ftp 配置
+ftp:
+  host: 192.168.44.100
+  port: 21
+  userName: ftpuser
+  password: ftpuser123456
+  basePath: /home/ftpuser/images
+server:
+  port: 8888
+#配置文件上传器
+spring:
+  http:
+    multipart:
+      maxFileSize: 100Mb
+      maxRequestSize: 100Mb
